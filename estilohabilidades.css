@@ -1,0 +1,81 @@
+.navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-header {
+    margin-right: 20px; /* Espaço entre o título e os links */
+  }
+  
+  .navbar-nav > li {
+    margin-right: 15px; /* Espaço entre os itens do menu */
+  }
+  
+  .navbar-form {
+    margin-left: auto; /* Move o formulário de busca para a extremidade direita */
+  }
+
+
+.principal{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: bolder;
+}
+.eucapa {
+  display: flex;
+  flex-direction: row;
+  border-radius: 90px;
+  height: 500px;
+}
+.escritas {
+  text-align: justify;
+  display: flex;
+  
+}
+.textoeimagem{
+  padding-left: 100px;
+}
+.textocapa {
+  padding-top: 15px;;
+  display: flex;
+  color: white;
+  padding-left: 50px;
+  width: 400px;
+  height: 480px;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 3px 3px 4px rgb(238, 255, 8);
+}
+.botao {
+  background-color: rgb(238, 255, 3);
+  text-decoration: solid;
+}
+
+.espaco{
+    margin-top: 40px;
+  }
+  .escritas {
+    margin-bottom: 100px; /* Ajuste conforme necessário */
+}
+
+
+
+/* header {
+    
+    background-image: url("img/ef2e9e28ee33b7eac7d47284cf28b176.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-name: slide;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes slide {
+    0% {background-image: url("img/pexels-hutaktasphotograpy-38386369-18254128.jpg");}
+    25% {background-image: url("img/pexels-introspectivedsgn-4061944.jpg");}
+    50% {background-image: url("img/pexels-jasinto-shabani-1609538378-27550053.jpg");}
+    75% {background-image: url("img/pexels-selman-59966951-8480883.jpg");}
+    100% {background-image: url("img/pexels-stanley-marut-3430312-6691639.jpg");}
+
+} */

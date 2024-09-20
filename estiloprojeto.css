@@ -1,0 +1,67 @@
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-header {
+    margin-right: 20px; /* Espaço entre o título e os links */
+  }
+  
+  .navbar-nav > li {
+    margin-right: 15px; /* Espaço entre os itens do menu */
+  }
+  
+  .navbar-form {
+    margin-left: auto; /* Move o formulário de busca para a extremidade direita */
+  }
+  .principal{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: bolder;
+}
+
+  .carousel-inner img {
+    width: 100%; /* Largura total */
+    height: auto; /* Altura automática para manter a proporção */
+    max-height: 400px; /* Altura máxima para evitar exagero */
+    object-fit: contain; /* Ajusta a imagem sem distorção */
+}
+
+  .carrossel {
+    width: 45%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-left: 40px;
+  }
+
+  .botoes {
+    text-decoration: solid;
+    color: black;
+  }
+
+  main {
+    margin-top: 80px;
+  }
+  .segundocarrossel{
+    margin-top: 140px;
+    margin-left: 100px;
+  }
+  .img2 {
+    width: 100%; /* Largura total */
+    height: auto; /* Altura automática para manter a proporção */
+    max-height: 00px; /* Altura máxima para evitar exagero */
+    object-fit: contain; /* Ajusta a imagem sem distorção */
+}
+.botao {
+    background-color: rgb(238, 255, 3);
+    text-decoration: solid;
+  }
+  .espaco{
+    margin-top: 40px;
+  }
+
+  .primeirocarrossel{
+    margin-top: 40px;
+    margin-left: 100px;
+  }
+  

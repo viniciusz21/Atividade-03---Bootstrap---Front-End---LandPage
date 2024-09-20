@@ -1,0 +1,111 @@
+/* Estilo da barra de navegação */
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f39c12; /* Cor de fundo da navbar */
+  padding: 10px 20px; /* Espaçamento interno */
+}
+
+.navbar-header {
+  font-size: 1.5em; /* Tamanho do título */
+  color: #333; /* Cor do título */
+}
+
+.navbar-nav > li {
+  margin: 0 20px; /* Espaço entre os itens do menu */
+}
+
+.navbar-nav > li:hover {
+  color: #fff; /* Cor do link ao passar o mouse */
+}
+
+.navbar-form {
+  margin-left: auto;
+}
+
+/* Estilo principal */
+.principal {
+  font-family: "Arial", sans-serif; /* Fonte mais limpa */
+  font-weight: bold; /* Peso da fonte */
+  color: #f39c12; /* Cor do texto principal */
+}
+
+/* Estilo da capa */
+.eucapa {
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px; /* Bordas arredondadas */
+  overflow: hidden; /* Para evitar que elementos transbordem */
+}
+
+.escritas {
+  text-align: justify;
+  display: flex;
+}
+
+.textoeimagem {
+  padding-left: 50px; /* Menos espaço */
+}
+
+.textocapa {
+  padding: 20px; /* Espaçamento interno */
+  display: flex;
+  color: #333; /* Cor do texto */
+  width: 400px;
+  height: 480px;
+  background-color: rgba(255, 255, 255, 0.7); /* Fundo claro com opacidade */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.5); /* Sombra mais sutil */
+}
+
+.botao {
+  background-color: #333; /* Cor do botão */
+  color: #fff; /* Cor do texto do botão */
+  padding: 10px 20px; /* Espaçamento interno */
+  border: none; /* Sem borda */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Cursor pointer */
+}
+
+.botao:hover {
+  background-color: #e67e22; /* Cor ao passar o mouse */
+}
+
+/* Estilo do cabeçalho */
+header {
+  position: relative;
+  background-image: url("img_thumb/lua.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: slide 10s infinite alternate; /* Duração e repetição da animação */
+}
+
+/* Camada de sobreposição */
+.teste2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6); /* Fundo claro com opacidade */
+  z-index: 1; /* Abaixo do texto */
+}
+
+/* Estilo do texto */
+.teste {
+  position: relative;
+  z-index: 2; /* Acima da camada escura */
+  color: #333; /* Cor do texto */
+  font-size: 2em; /* Tamanho do texto */
+  text-align: center; /* Centralizar texto */
+}
+
+@keyframes slide {
+  0% { background-image: url("img_thumb/lua.jpg"); }
+  100% { background-image: url("img_thumb/lua.jpg"); }
+}
+
+.margem {
+  margin-top: 50px; /* Mais espaço superior */
+}
